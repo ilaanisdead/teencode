@@ -1,5 +1,5 @@
-num = range(1,100)
-for n in num:
-    if(n % 4 == 0):
-        print(n)
-        
+num = 1
+while (num <= 101):
+    if(num % 4 == 0):
+        print(num)
+    num+=1
